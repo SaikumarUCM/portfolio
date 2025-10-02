@@ -1,0 +1,35 @@
+.copyright{
+    padding-left: 1200px;
+}
+
+.app__social {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 40%;
+    left: 20px;
+    z-index: 10;
+  
+    a {
+      margin: 10px 0;
+      color: #fff;
+      background-color: #4f4f4f;
+      border-radius: 50%;
+      padding: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  
+      &:hover {
+        transform: scale(1.1);
+        background-color: #0077b5; // Or any brand color on hover
+      }
+  
+      svg {
+        font-size: 20px;
+      }
+    }
+  }
+  
